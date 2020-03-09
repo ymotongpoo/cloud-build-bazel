@@ -1,0 +1,3 @@
+steps:
+- name: 'gcr.io/cloud-builders/bazel'
+  args: ['build', '--host_force_python=PY2', '--verbose_failures', ':hello_container']
